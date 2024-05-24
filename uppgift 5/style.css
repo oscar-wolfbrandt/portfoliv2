@@ -1,0 +1,48 @@
+
+.parent{
+    background-color: aqua;
+    height: 20rem;
+    padding: 0%;
+    margin: 0%;
+    grid-row: inherit;
+
+}
+
+
+.sticky{
+    background-color: magenta;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    height: 20%;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size:larger;
+    text-align:left;
+}
+
+.text2{
+    background-color: lightcoral;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    height: 20%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.text3{
+    background-color: yellow;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    height: 20%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+
+.parenttext{
+    margin-left: 3%;
+}
+
+.sticky.sticky{
+    top:0;
+    position: sticky;
+}

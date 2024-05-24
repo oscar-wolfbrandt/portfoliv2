@@ -1,0 +1,112 @@
+.menu-div{
+    background-image: linear-gradient(to right, blueviolet ,red );
+    list-style: none;
+    display:flex;
+    align-items: center;
+    gap:2rem;
+    color:blcak;
+}
+
+.menu-text{
+    font-size: 100%;
+    color:white;
+}
+.menu-text:hover{
+    text-decoration: underline aqua;
+}
+
+.menu-text1{
+    font-size: 100%;
+    margin-left: 9rem;
+    color:white;
+}
+
+header{
+    padding:0;
+    margin: 0;
+    color:white;
+}
+
+h1{
+    margin-left: 17rem ;
+    font-size: 250%;
+    font-weight: 700;
+    margin-block: 1rem;
+
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.big-div{
+    max-width: 50%;
+    margin-left: 22%;
+    padding: 0;
+}
+
+.text-div1{
+    margin: 0;
+    padding: 0;
+}
+
+.text-div{
+    margin: 0;
+    padding: 0;
+}
+.text-div1:nth-child(even){
+    background-color: rgb(222, 222, 222);
+}
+
+
+.section-1{
+    margin-top: 2rem;
+    display: flex;
+}
+
+.link-text{
+    margin-left: -1.4rem;
+    padding-top: 1rem;
+}
+
+.title-text{
+    font-size: 120%;
+}
+
+.li-item{
+    margin-top: 20%;
+    padding-right: 2rem;
+}
+.li-item:last-child{
+    margin-top: 20%;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+}
+
+.div-text{
+    padding:1rem;
+}
+
+.exp-text{
+    display: flex;
+    float: left;
+    margin-right: 20%;
+    margin-left:1rem;
+}
+
+.link-list{
+    background-color: rgb(255, 255, 255);
+    margin-top: 7rem;
+    margin-left:5rem;
+    border-left: rgb(161, 161, 161) solid;
+}
+
+.link-list:hover{
+    border-left:aqua solid;
+    transition: 200ms;
+}
+
+body{
+    background-color:whitesmoke;
+}

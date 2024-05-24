@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>m2</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <a class="skip" href="#main">Skip to main content</a>
+    <header>
+        <nav class="menu-div1"> 
+            <h1>Mail</h1>
+            <div clss="link-div">
+                <a class="menu-text1" href="/index.html">Begrep</a>
+                <a class="menu-text1" href="/m2/m2.html">Htmls historia</a>
+                <a class="menu-text1" href="/dom/dom.html">DOM</a>
+                <a class="menu-text1" href="/accessibility/accessibility.html">tillgänglighet </a>
+                <a class="menu-text3" href="/m2/mail.html">Mail</a>
+            </div>
+        </nav>
+    </header>
+    <main id="main" class="main-mail">
+        <div class="big-form-div">
+            <div class="form-div">
+                <h2>Kontakta mig</h2>
+                <form action="https://formsubmit.co/oscar.schmererwolfbrandt@elev.ga.ntig.se" method="POST">
+                    <input type="checkbox" id="ärende" name="ärende" value="1">
+                    <label for="box1"> ärende 1</label><br>
+                    <input type="checkbox" id="ärende" name="ärende" value="2">
+                    <label for="box2" > ärende 2</label><br>
+                    <input type="checkbox" id="ärende" name="ärende" value="3">
+                    <label for="box3"> ärende 3</label>
+                    <p class="form-text">Namn</p>
+                    <input class="text-box" type="text" name="name" required>
+                    <p class="form-text">Meddelande</p>
+                    <input class="text-box" type="text" name="Meddelande" required>
+                    <p class="form-text">Mail</p>
+                    <input class="text-box type="email" name="email" required>                      
+                    <button class="send-button" type="submit">Skicka</button>
+                    <input type="hidden" name="_next" value="http://127.0.0.1:5500/m2/thanks.html">
+                    <input type="hidden" name="_captcha" value="false">
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
+
+

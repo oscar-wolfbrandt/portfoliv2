@@ -1,0 +1,287 @@
+header{
+    padding:0;
+    margin: 0;
+    color:white;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.big-div{
+    max-width: 50%;
+    margin-left: 22%;
+    padding: 0;
+}
+
+.big-divm2{
+    display: flex;
+    justify-content: center;
+}
+
+.text-div1{
+    margin: 0;
+    padding: 0;
+}
+
+.text-div{
+    margin: 0;
+    padding: 0;
+}
+
+
+.text-div1:nth-child(even){
+    background-color: rgb(222, 222, 222);
+}
+
+.section-1{
+    margin-top: 2rem;
+    display: flex;
+}
+
+.link-text{
+    margin-left: -1.4rem;
+    padding-top: 1rem;
+}
+
+.title-text{
+    font-size: 120%;
+}
+.title-text1{
+    font-size: 120%;
+    margin-top:4rem;
+}
+
+.li-item{
+    color:black;
+    margin-top: 20%;
+    padding-right: 2rem;
+}
+.li-item:last-child{
+    margin-top: 20%;
+    padding-right: 2rem;
+    padding-bottom: 1rem;
+}
+
+.div-text{
+    padding:1rem;
+}
+
+.exp-text{
+    display: flex;
+    float: left;
+    margin-right: 20%;
+    margin-left:1rem;
+}
+
+.link-list{
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(240, 240, 240);
+    margin-top: 7rem;
+    margin-left:5rem;
+    border-left: rgb(161, 161, 161) solid;
+}
+
+.link-list:hover{
+    border-left:aqua solid;
+    transition: 200ms;
+}
+
+
+header{
+    padding:0;
+    margin: 0;
+    color:white;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    background-color: white;
+}
+
+.menu-div1{
+    background-image: linear-gradient(to right, blueviolet ,red );
+    list-style: none;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap:2rem;
+    color:blcak;
+}
+
+h1{
+    margin-left: 3%;
+}
+
+
+.menu-text1{
+    font-size: 100%;
+    color:white;
+    margin-right: 2rem;
+}
+
+.menu-text3{
+    font-size: 100%;
+    color:white;
+    margin-right: 2rem;
+    text-decoration: underline aqua;
+}
+
+.menu-text1:hover{
+    text-decoration: underline aqua;
+}
+.menu-text2:hover{
+    text-decoration: underline aqua;
+}
+
+a{
+    text-decoration: none;
+}
+
+.botem{
+    margin-top:3rem;
+    color:white;
+    display: flex;
+    background-color:  #232323;
+    align-items: center;
+    justify-content: center;
+    gap:3rem;
+}
+
+.botem-link{
+    text-decoration: none;
+    color:white;
+    text-decoration: underline white;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.skip{
+    color: black;
+    position: fixed;
+    z-index: 0;
+    top:0;
+    left:1rem;
+    background-color: white;
+    border:solid black 1px;
+    text-decoration: none;
+    color:black;
+    padding: 1rem;
+    translate: 0 -100%;
+}
+
+.skip:focus{
+    translate: 0 10%;
+}
+
+.main-div{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.main-divd{
+    max-width: 70%;
+    columns: 2;
+    column-gap: 5rem;
+    margin-top:1rem;
+}
+
+.main-text{
+    line-height: 1.5rem;
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+.main-textm2{
+    line-height: 1.5rem;
+    font-size: 80%;
+    font-family: sans-serif;
+}
+
+.botem{
+    margin-top:3rem;
+    color:white;
+    display: flex;
+    background-color:  #232323;
+    align-items: center;
+    justify-content: center;
+    gap:3rem;
+}
+
+.text-divd{
+    max-width: 70%;
+}
+
+.title-div{
+    display:flex;
+    justify-content: center;
+    width: 100%;
+    margin:0;
+    padding:0;
+}
+
+.intro-div{
+    border-block: solid black 3px;
+    background-color: rgb(145, 145, 145);
+    color: black;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.intro-text{
+    color:white;
+}
+
+.iner-div{
+    max-width: 20%;
+}
+
+
+.big-form-div{
+    margin-top: 5%;
+    min-width: 35%;
+    background-color: transparent;
+    display: flex;
+    justify-content: center;
+    background-color:whitesmoke;
+    padding-bottom:3%;
+    border:solid black 2px;
+    box-shadow: 2px 3px 10px;
+}
+
+.main-mail{
+    width: 100%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.text-box{
+    min-width: 110%;
+}
+
+.send-button{
+    margin-top: 5%;    
+}
+
+.form-text{
+    margin-bottom: 0;
+}
+
+.thanks-div{
+    display: flex;
+    flex-direction: column;
+    padding: 20%;
+}
